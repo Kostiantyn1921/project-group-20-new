@@ -1,6 +1,6 @@
 .reviews {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     }
 
 .reviews-item {
@@ -23,11 +23,10 @@
 
 .reviews-container {
     max-width: 335px;
-    margin: 0 auto;
 }
 
 .reviews-blocks {
-    display: flex;  
+    display: flex;      
 }
 
 .reviews-title {
@@ -37,7 +36,6 @@
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #0c0c0c;
-    margin-left: 20px;
 }
 
 
