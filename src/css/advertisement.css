@@ -1,0 +1,55 @@
+.advertisement {
+  border-radius: 30px;
+  max-width: 335px;
+  max-height: 363px;
+  background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),  url(/img/advertisement/advertisement-bgc-mob.jpg);
+    padding: 60px 28px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 30px auto;
+   max-width: 279px;
+}
+
+.advertisement-text {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  max-width: 279px;
+  max-height: 167px;
+  text-align:left;
+  padding-bottom: 28px;
+}
+
+.advertisement-text-color {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisement-btn {
+  display: block;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  background-color: transparent;
+  color: #fbfbfb;
+  border-radius: 16px;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  width: 162px;
+  height: 48px;
+  padding: 15px 43px 15px 44px;
+}
+
+.advertisement-btn:focus {
+  background-color:  #fbfbfb;
+  color: #0c0c0c;
+}
+
+.advertisement-btn:hover {
+  background-color:  #fbfbfb;
+  color: #0c0c0c;
+}
