@@ -1,0 +1,150 @@
+.aboutus {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.aboutus-content {
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.aboutus-title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 28px;
+    padding-left: 20px;
+}
+
+.aboutus-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.aboutus-item {
+    max-width: 295px;  
+}
+.aboutus-item-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(12, 12, 12, 0.7);
+
+    /* margin-bottom: 20px;
+    max-width: 295px; */
+    /* position: relative;  */
+
+}
+.aboutus-wrap {
+    max-width: 335px;
+    margin: 0 auto;
+}
+
+
+.aboutus-image-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+    background-color: #3350e9;;
+    cursor: pointer;
+    border-radius: 16px;
+    border: none;
+    width: 160px;
+    height: 48px;
+    padding: 15px 38px;
+    display: block;
+    /* margin-top: 20px; */
+    min-width: 160px;
+    margin-left: 20px;
+}
+
+.aboutus-image-btn:hover,
+.aboutus-image-btn:focus {
+    background-color: #1f3cd4;;
+}
+
+.tablet {
+    display: none;
+}
+
+.desktop {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .aboutus-content {
+        width: 704px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        margin-bottom: 40px;
+    }
+
+    .aboutus-title {
+        font-size: 48px;
+        padding-left: 60px;
+    }
+
+    .aboutus-item {
+        max-width: 584px;  
+    }
+
+    .aboutus-item-text {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .aboutus-list {
+        margin-bottom: 40px;
+        padding-left: 60px;
+    }
+
+    .aboutus-wrap {
+        max-width: 704px;
+    }
+
+    .aboutus-image-btn{
+        margin-left: 60px;
+    }
+} 
+
+@media screen and (min-width: 1280px) {
+
+    .aboutus-container {
+       display: flex; 
+       align-items: center;
+       gap: 40px;
+    }
+
+    .aboutus-content {
+       width: 580px;
+       margin-bottom:0;
+       margin-right: 0;
+    }
+
+    .aboutus-item {
+        max-width: 460px;  
+    }
+
+    .aboutus-wrap {
+        max-width: 530px;
+        height: 532px;
+        margin-left:0;
+    }
+}
