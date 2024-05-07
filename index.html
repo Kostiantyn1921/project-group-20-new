@@ -10,7 +10,7 @@
       crossorigin="anonymous" referrerpolicy="no-referrer">
     
     <script type="module" crossorigin src="/project-group-20-new/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-20-new/assets/index-09b53cd6.css">
+    <link rel="stylesheet" href="/project-group-20-new/assets/index-f93fc515.css">
   </head>
   <body>
     <header class="header">
@@ -314,7 +314,7 @@
 </section>
     <section class="sale">
     <div class="container">
-        <h2 class="sale-title">Sale</h2>
+        <h2 id="sale" class="sale-title">Sale</h2>
         <div class="sale-container">
             <div class="sale-min-wrap">
                 <ul class="sale-gallery">
@@ -349,28 +349,30 @@
                 </ul>
             </div>
             <div class="sale-big-img">
-                <picture class="sale-gallery-image">
+                <picture>
+                     <source srcset="/project-group-20-new/assets/bigwatch-mob-843765a2.png 1x, /project-group-20-new/assets/bigwatch-mob-2x-c756dddb.png 2x" media="(max-width: 767px)">
                     <source srcset="/project-group-20-new/assets/bigwatch-be239c5d.png 1x, /project-group-20-new/assets/bigwatch-2x-27bf67fe.png 2x" media="(min-width: 768px)">
-                    <source srcset="/project-group-20-new/assets/bigwatch-mob-843765a2.png 1x, /project-group-20-new/assets/bigwatch-mob-2x-c756dddb.png 2x" media="(max-width: 767px)">
-                    <img src="/project-group-20-new/assets/bigwatch-be239c5d.png" alt="Watch catalog" width="235" height="285" class="sale-img"/>
-                  </picture>
+                   
+                    <img src="/project-group-20-new/assets/bigwatch-be239c5d.png" alt="Watch catalog" class="sale-img"/>
+                </picture>
             </div>
             <div class="sale-content">
                     <h3 class="sale-content-title">MARQ® Commander (Gen 2) - Carbon Edition</h3>
                     <p class="sale-content-tag">Product tag: 706587</p>
-                        <div class="sale-prices">
-                            <p class="sale-price-new">€1500</p>
-                            <p class="sale-price-old">€3000</p>
-                         </div>
-                     
                     
-                        <p class="sale-content-text">The Garmin MARQ Commander Gen 2 Carbon 
-                            Edition is a modern smartwatch for adventurers that takes materials 
-                            and features to the next level. The body of the watch is made of very 
-                            durable Fused Carbon Fiber material and has a precise AMOLED touch screen. 
-                            The sensitive touch screen is complemented by buttons that can be used 
-                            in any conditions. 
-                        </p>
+                    <div class="sale-prices">
+                        <p class="sale-price-new">€1500</p>
+                        <p class="sale-price-old">€3000</p>
+                    </div>
+                                         
+                    <p class="sale-content-text">The Garmin MARQ Commander Gen 2 Carbon 
+                        Edition is a modern smartwatch for adventurers that takes materials 
+                        and features to the next level. The body of the watch is made of very 
+                        durable Fused Carbon Fiber material and has a precise AMOLED touch screen. 
+                        The sensitive touch screen is complemented by buttons that can be used 
+                        in any conditions. 
+                    </p>
+                    
                     <ul class="sale-content-btn">
                         <li class="sale-btn">
                             <a href="#" class="sale-btn-link">Fused carbon fiber</a>
@@ -394,7 +396,6 @@
             </div>
         </div>
     </div>
-
 </section>
     <section class="reviews" id="reviews">
     <div class="container">
