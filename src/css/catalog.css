@@ -1,8 +1,8 @@
-.tablet {
+.tablet-ctl {
     display: none;
 }
 
-.desktop {
+.desktop-ctl {
     display: none;
 }
 
@@ -21,12 +21,14 @@
     border-radius: 30px;
     padding: 24px 28px;
     margin-bottom: 20px;
+    max-width: 335px;
 }
 
 .catalog-item-img {
     display:flex;
     align-items: center;
     justify-content: center;
+    padding: 42px 64px 28px 63px;
 }
 
 .catalog-item-text {
@@ -83,15 +85,15 @@
         display: block;
     }
 
-    .mobile {
+    .mobile-ctl {
         display: none;
     }
 
-    .tablet {
+    .tablet-ctl {
         display: block;
     }
 
-    .desktop {
+    .desktop-ctl {
         display: none;
     }
 
@@ -118,15 +120,15 @@
 
 @media screen and (min-width: 1280px) {
 
-    .mobile {
+    .mobile-ctl {
         display: none;
     }
 
-    .tablet {
+    .tablet-ctl {
         display: none;
     }
 
-    .desktop {
+    .desktop-ctl {
         display: block;
     }
 
