@@ -143,6 +143,10 @@
 
 @media screen and (min-width: 1280px) {
 
+    .contact-title {
+        margin-bottom: 40px;
+    }
+
     .contact-input-img {
         flex-direction: row;
         gap: 40px;
