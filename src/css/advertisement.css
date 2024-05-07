@@ -134,4 +134,9 @@
         min-width: 690px;
     }
 
+    .advertisement-btn {
+        margin-top: 0;
+        margin-left: 140px;
+    }
+
 }
