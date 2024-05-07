@@ -141,6 +141,18 @@
     padding: 17px 63px;
   }
 
+  .button:hover{
+    background-color:  #1f3cd4;
+  }
+
+  .button:focus{
+    background-color:  #1f3cd4;
+  }
+
+  .button:active{
+    background-color:  #1f3cd4;
+  }
+
 @media screen and (min-width: 1280px) {
 
     .contact-title {
