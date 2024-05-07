@@ -52,6 +52,10 @@
   height: 42px;
 }
 
+.contact-form-input:focus {
+    border: 1px solid #3350e9;
+}
+
 .contact-form-input::placeholder {
     color: #0c0c0c;
 }
