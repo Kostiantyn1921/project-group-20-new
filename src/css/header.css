@@ -77,7 +77,6 @@
 
 @media (min-resolution: 192dpi) {
   .menu-overlay {
-    height: 100vh;
     background-image: url(/img/header/header-menu-bg-2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,7 +166,7 @@
 
   .menu-overlay {
     width: 330px;
-    height: 1024px;
+    height: 100vh;
     background-image: url(/img/header/header-menu-bg-tablet.jpg);
   }
 
