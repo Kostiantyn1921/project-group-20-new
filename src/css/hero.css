@@ -18,6 +18,7 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin-bottom: 20px;
+  margin-top: 60px;
 }
 
 .styled {
@@ -78,6 +79,7 @@
 @media screen and (min-width: 768px) {
   .hero-container {
     max-width: 704px;
+    margin-top: 80px;
     margin-bottom: 80px;
   }
 
@@ -97,6 +99,10 @@
     font-size: 70px;
     line-height: 0.86;
   }
+
+  .hero-link-picture {
+    margin-top: 80px;
+}
 
   .hero-text {
     font-size: 16px;
