@@ -113,7 +113,8 @@
 
     .catalog-item-title{
         font-size: 20px;
-        line-height: 100%
+        line-height: 100%;
+        margin: 0 auto;
     }
 
     .catalog-blocks {
