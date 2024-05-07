@@ -11,6 +11,7 @@
 }
 
 .catalog-title {
+    font-family:  "Gilroy", sans-serif;
     margin-top: 30px;
     margin-bottom: 24px;
 }
@@ -57,7 +58,7 @@
     display: flex;
     margin: 0 auto;
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     background-color:  #3350e9;
     border-radius: 16px;
     font-weight: 500;
@@ -97,6 +98,15 @@
         display: none;
     }
 
+    .catalog {
+        margin-bottom: 80px;
+    }
+
+    .catalog-title {
+        font-size: 48px;
+        line-height: 92%;
+    }
+
     .catalog-button {
         display: none;
     }
@@ -130,6 +140,10 @@
 
     .desktop-ctl {
         display: block;
+    }
+
+    .catalog{
+        margin-bottom: 100px;
     }
 
     .catalog-item {
