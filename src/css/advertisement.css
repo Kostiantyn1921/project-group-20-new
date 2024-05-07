@@ -1,14 +1,22 @@
 .advertisement {
   border-radius: 30px;
-  max-width: 335px;
-  max-height: 363px;
-  background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),  url(/img/advertisement/advertisement-bgc-mob.jpg);
-    padding: 60px 28px;
+  background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),  url(/img/advertisement/advertisement-bg-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin: 30px auto;
-   max-width: 279px;
+    max-width: 279px;
+}
+
+@media (min-resolution: 192dpi) {
+    .advertisement {
+        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),  url(/img/advertisement/advertisement-bg-mobile-2x.jpg);
+    }
+}
+
+.advertisement-container {
+    margin-left: -20px;
+    padding: 60px 28px;
 }
 
 .advertisement-text {
@@ -52,4 +60,64 @@
 .advertisement-btn:hover {
   background-color:  #fbfbfb;
   color: #0c0c0c;
+}
+
+@media screen and (min-width: 768px) {
+
+    .advertisement {
+        max-width: 704px;
+        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),  url(/img/advertisement/advertisement-bg-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media (min-resolution: 192dpi) {
+    .advertisement {
+        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),  url(/img/advertisement/advertisement-bg-tablet-2x.jpg);
+    }
+}
+
+    .advertisement-container{
+        margin-left: -32px;
+        padding: 80px 64px;
+    }
+
+    .advertisement-text {
+        min-width: 576px;
+        font-size: 48px;
+        line-height: 92%;
+        padding-bottom: 32px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    
+    .advertisement {
+        max-width: 1150px;
+        max-height: 298px;
+        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),  url(/img/advertisement/advertisement-bg-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media (min-resolution: 192dpi) {
+        .advertisement {
+            background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),  url(/img/advertisement/advertisement-bg-desktop-2x.jpg);
+        }
+    }
+
+    .advertisement-container{
+        margin-left: -65px;
+        padding: 83px 80px;
+        display: flex;
+    }
+
+    .advertisement-text {
+        min-width: 690px;
+        padding-right: 140px;
+    }
+
 }
