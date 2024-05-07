@@ -1,6 +1,7 @@
 .hero-container {
   margin: 0 auto;
   max-width: 335px;
+  margin-top: 60px;
   margin-bottom: 60px;
 }
 
@@ -18,7 +19,6 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin-bottom: 20px;
-  margin-top: 60px;
 }
 
 .styled {
@@ -99,10 +99,6 @@
     font-size: 70px;
     line-height: 0.86;
   }
-
-  .hero-link-picture {
-    margin-top: 80px;
-}
 
   .hero-text {
     font-size: 16px;
