@@ -23,6 +23,7 @@
 
 .reviews-container {
     max-width: 335px;
+    margin: 0 auto;
 }
 
 .reviews-blocks {

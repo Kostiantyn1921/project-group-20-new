@@ -10,6 +10,11 @@
     display: none;
 }
 
+.catalog-container {
+    margin: 0 auto;
+    width: 335px;
+}
+
 .catalog-title {
     font-family:  "Gilroy", sans-serif;
     margin-top: 30px;

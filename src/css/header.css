@@ -54,8 +54,8 @@
   position: fixed;
   top: 0;
   left: 100%;
+  height: 100vh;
   width: 200px;
-  height: 812px;
   background-image: url(/img/header/header-menu-bg.jpg);
   transform: translateX(-100%);
   background-repeat: no-repeat;
