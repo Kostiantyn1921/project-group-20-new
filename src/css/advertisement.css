@@ -1,38 +1,35 @@
 .advertisement {
-  border-radius: 30px;
-  background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),  url(/img/advertisement/advertisement-bg-mobile.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin: 30px auto;
-    max-width: 335px;
-}
-
-@media (min-resolution: 192dpi) {
-    .advertisement {
-        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),  url(/img/advertisement/advertisement-bg-mobile-2x.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
+    margin: 60px 0;
 }
 
 .advertisement-container {
-    margin-left: -20px;
+    border-radius: 30px;
+    width: 335px;
+    height: 363px;
+    background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+            url(/img/advertisement/advertisement-bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding: 60px 28px;
 }
 
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+    .advertisement-container {
+        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+                url(/img/advertisement/advertisement-bg-mobile-2x.jpg);
+    }
+}
+
 .advertisement-text {
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  color: #fbfbfb;
-  max-width: 279px;
-  max-height: 167px;
-  text-align:left;
-  padding-bottom: 28px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 28px;
 }
 
 .advertisement-text-color {
@@ -40,103 +37,86 @@
 }
 
 .advertisement-btn {
-  display: block;
-  border: 1px solid rgba(251, 251, 251, 0.1);
-  background-color: transparent;
-  color: #fbfbfb;
-  border-radius: 16px;
-  font-family: "Gilroy", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 129%;
-  text-align: center;
-  width: 162px;
-  height: 48px;
-  padding: 15px 43px 15px 44px;
-    margin-left: 140px;
-}
-
-.advertisement-btn:focus {
-  background-color:  #fbfbfb;
-  color: #0c0c0c;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+    background-color: transparent;
 }
 
 .advertisement-btn:hover {
-  background-color:  #fbfbfb;
-  color: #0c0c0c;
+    background-color: #fbfbfb;
+    color: #0c0c0c;
+}
+
+.advertisement-btn:focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
 }
 
 @media screen and (min-width: 768px) {
-
     .advertisement {
-        max-width: 704px;
-        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),  url(/img/advertisement/advertisement-bg-tablet.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        margin: 80px 0;
     }
 
-    @media (min-resolution: 192dpi) {
-    .advertisement {
-        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),  url(/img/advertisement/advertisement-bg-tablet-2x.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-}
-
-    .advertisement-container{
-        margin-left: -32px;
+    .advertisement-container {
+        width: 704px;
+        height: 425px;
         padding: 80px 64px;
+        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+                url(/img/advertisement/advertisement-bg-tablet.jpg);
+    }
+
+    @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+        .advertisement-container {
+        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+                url(/img/advertisement/advertisement-bg-tablet-2x.jpg);
+        }
     }
 
     .advertisement-text {
-        min-width: 576px;
         font-size: 48px;
-        line-height: 92%;
-        padding-bottom: 32px;
-    }
-
-    .advertisement-btn {
-        margin-left: 0;
-        margin-top: 32px;
+        line-height: 0.92;
+        margin-bottom: 32px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    
     .advertisement {
-        max-width: 1150px;
-        max-height: 298px;
-        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),  url(/img/advertisement/advertisement-bg-desktop.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        margin-bottom: 100px;
+        margin: 100px 0;
     }
 
-    @media (min-resolution: 192dpi) {
-        .advertisement {
-            background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),  url(/img/advertisement/advertisement-bg-desktop-2x.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
+    .advertisement-container {
+        width: 1150px;
+        height: 298px;
+        padding: 83px 80px;
+        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+                url(/img/advertisement/advertisement-bg-desktop.jpg);
+        position: relative;
+    }
+
+    @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+        .advertisement-container {
+        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+                url(/img/advertisement/advertisement-bg-desktop-2x.jpg);
         }
     }
 
-    .advertisement-container{
-        margin-left: -65px;
-        padding: 83px 80px;
-        display: flex;
-    }
-
     .advertisement-text {
-        min-width: 690px;
+        max-width: 690px;
     }
 
     .advertisement-btn {
-        margin-top: 0;
-        margin-left: 140px;
+        position: absolute;
+        top: 80px;
+        right: 80px;
     }
-
 }
