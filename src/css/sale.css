@@ -1,7 +1,6 @@
 .sale {
     margin-top: 60px;
     margin-bottom: 60px;
-    
 }
 
 .sale-container {
@@ -22,19 +21,17 @@
     margin-bottom: 24px;
  }
 
-
-  .sale-gallery {
+ .sale-gallery {
     display: flex;
     gap: 5px;
 }
-  .sale-gallery-minwatch {
+ 
+.sale-gallery-minwatch {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 13px 14px;
-    /* width: calc((100% - 3 * 5px) / 4); */
     border-radius: 16px;
-    border: 1px solid rgba(12, 12, 12, 0.05);
     background-color: #f3f3f3;
   }
 
@@ -43,8 +40,7 @@
     background-color: #f3f3f3;
     padding: 50px;
     border-radius: 30px;
-    border: 1px solid rgba(12, 12, 12, 0.05);
-}
+  }
 
 .sale-content {
     border-radius: 30px;
@@ -53,11 +49,11 @@
   }
   
   .sale-content-title {
-    color: #fbfbfb;
-    font-size: 24px;
     font-weight: 600;
-    line-height: 28px;
-    letter-spacing: -0.48px;
+    font-size: 24px;
+    line-height: 1.167;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
     margin-bottom: 10px;
   }
   
@@ -135,55 +131,91 @@
   
 
 
+
   @media screen and (min-width: 768px) {
     .sale {
         margin-top: 80px;
         margin-bottom: 80px;
     }
+
     .sale-container {
-        display: flex; 
-        flex-direction: row;
-        /* justify-content: center; */
-        align-items: center;
-        gap: 20px; 
-        width: 704px;
+     flex-direction: row;
+     flex-wrap: wrap;
+      width: 704px;
     } 
+    
+    .sale-title {
+      font-size: 48px;
+      line-height: 0.917;
+      margin-bottom: 40px;
+   }
+   
     .sale-gallery {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
+        gap: 10px;
+      }
+
+    .sale-gallery-minwatch {
+      padding: 16px 18px;
+      border-radius: 20px;
+     }
+
+     .sale-big-img {
+      border-radius: 50px;
+      padding: 80px 112px;
     }
-    
+    .sale-content {
+      border-radius: 50px;
+      padding: 60px;
+    }
+     
+    .sale-content-title {
+      font-size: 32px;
+      line-height: 1.125;
+     }
+
+     .sale-prices {
+      margin-bottom: 30px;
+    }
+
+    .sale-price-new {
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    .sale-content-text {
+      font-size: 16px;
+      line-height: 1.25;
+      margin-bottom: 40px;
   }
+  }
+ 
+  
 
-
-    
     @media screen and (min-width: 1280px) {
 
     .sale {
         margin-top: 100px;
         margin-bottom: 100px;
     }
-    }
+    .sale-container {
+      flex-wrap: nowrap;
+      width: 1150px;
+    } 
 
+   .sale-big-img {
+    padding: 80px 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+  }
 
+  .sale-content {
+    max-width: 530px;
+  }
 
+  .sale-content-title {
+    font-size: 32px;
+    line-height: 1.125;
+   }
+ }
 
-
-
-@media screen and (min-width: 768px) {
-    .sale {
-        margin-top: 80px;
-        margin-bottom: 80px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-
-    .sale {
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-}
