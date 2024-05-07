@@ -133,8 +133,13 @@
     }
 
     .catalog-item {
-        width: calc((100% - 130px) / 3);
+        max-width: calc((100% - 46px) / 3);
         padding: 24px 32px;
+        margin-bottom: 9px;
+    }
+
+    .catalog-blocks {
+        gap: 23px;
     }
 
 }
