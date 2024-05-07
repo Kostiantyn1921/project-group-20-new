@@ -39,7 +39,6 @@
 /* input */
 
 .contact-form-input {
-  padding: 12px 14px;
   border-radius: 12px;
   border: 1px solid rgba(12, 12, 12, 0.15);
   font-size: 14px;
@@ -47,8 +46,9 @@
   line-height: 129%;
   color: #0c0c0c;
   background-color: #f3f3f3;
-  width: calc(100% - 36px);
-  height: 18px;
+  width: 279px; 
+  padding: 12px 0 12px 14px;
+  height: 42px;
 }
 
 .contact-form-input::placeholder {
@@ -89,7 +89,6 @@
   }
 
   .contact-input {
-    width:460px;
     padding: 50px 122px;
   }
 
@@ -102,6 +101,8 @@
     font-size: 16px;
     line-height: 125%;
     padding: 16px;
+    width: 460px;
+    height: 52px;
   }
 
   .comment {
@@ -133,5 +134,7 @@
     .contact-input {
         padding: 50px 60px;
         max-height: 556px;
+        width: 580px;
     }
+
 }
