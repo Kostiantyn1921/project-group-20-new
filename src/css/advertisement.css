@@ -112,6 +112,7 @@
 
     .advertisement-text {
         max-width: 690px;
+        margin-bottom: 0;
     }
 
     .advertisement-btn {
