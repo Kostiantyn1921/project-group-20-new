@@ -1,0 +1,29 @@
+.sale-container {
+    width: 335px;
+    margin: 0 auto;
+}
+
+.sale-title {
+    margin-bottom: 24px;
+}
+
+.sale-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.sale-list-item {
+    background-color: #f3f3f3;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    padding: 13px 14px;
+    max-width: calc((100% - 55px) / 4);
+}
+
+.description {
+    width: 335px;
+    background-color: #3350e9;
+    border-radius: 30px;
+}
