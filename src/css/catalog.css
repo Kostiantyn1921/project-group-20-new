@@ -141,6 +141,7 @@
 
     .desktop-ctl {
         display: block;
+        min-width: 304px;
     }
 
     .catalog{
