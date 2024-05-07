@@ -7,7 +7,7 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/project-group-20-new/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-20-new/assets/index-ea291500.css">
+    <link rel="stylesheet" href="/project-group-20-new/assets/index-f0adba5b.css">
   </head>
   <body>
     <header class="header">
@@ -194,8 +194,16 @@
                     <button class="button">Send</button>
                 </div>
             </div>
-            <img class="contact-item-img" srcset="/project-group-20-new/assets/watches-contact-us-0a2ab63c.png 1x, /project-group-20-new/assets/watches-contact-us-0a2ab63c.png 2x" src="/project-group-20-new/assets/watches-contact-us-0a2ab63c.png"
+            <picture>
+                <source srcset="/project-group-20-new/assets/contact-us-desktop-788403c0.jpg 1x, /project-group-20-new/assets/contact-us-desktop-2x-2eb3d343.jpg 2x"
+                    media="(min-width: 1280px)" />
+                <source srcset="/project-group-20-new/assets/contact-us-tablet-da9e8773.jpg 1x, /project-group-20-new/assets/contact-us-tablet-2x-f660c521.jpg 2x"
+                    media="(min-width: 768px)" />
+                <source srcset="/project-group-20-new/assets/contact-us-mobile-5d49067c.jpg 1x, /project-group-20-new/assets/contact-us-mobile-2x-fdbd63f7.jpg 2x"
+                    media="(max-width: 767px)" />
+                <img class="contact-item-img" src="./img/contact-us/contact-us/contact-us-mobile.png"
                 alt="watches">
+            </picture>
         </div>
     </div>
 </section>
