@@ -4,7 +4,7 @@ hr {
 }
 
 .footer-container {
-  max-width: 279px;
+  max-width: 335px;
   padding: 40px 28px 28px 28px;
   border-radius: 30px;
   background-color: #0c0c0c;
@@ -158,7 +158,7 @@ hr {
 
   .footer-container {
     margin-bottom: 32px;
-    max-width: 624px;
+    max-width: 704px;
     padding: 40px 40px 28px 40px;
     margin-top: 40px;
   }
@@ -272,7 +272,7 @@ hr {
 
 
   .footer-container {
-    min-width: 1136px;
+    max-width: 1216px;
     margin-top: 50px;
     margin-left: -33px;
     margin-right: -33px;
