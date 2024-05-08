@@ -66,6 +66,9 @@
     display: block;
     min-width: 160px;
     margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .aboutus-image-btn:hover,
