@@ -1,8 +1,11 @@
+.hero {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
 .hero-container {
   margin: 0 auto;
   max-width: 335px;
-  padding-top: 60px;
-  padding-bottom: 30px;
 }
 
 .hero-first-wrapper {
@@ -77,10 +80,14 @@
 }
 
 @media screen and (min-width: 768px) {
+    .hero {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
   .hero-container {
     max-width: 704px;
-    padding-top: 80px;
-    padding-bottom: 40px;
+    
   }
 
   .hero-first-wrapper {
@@ -128,9 +135,13 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .hero {
+        padding-bottom: 50px;
+    }
+
   .hero-container {
     max-width: 1150px;
-    padding-bottom: 50px;
+    
   }
 
   .hero-text-wrapper {
