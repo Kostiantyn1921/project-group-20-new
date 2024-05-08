@@ -1,55 +1,139 @@
-.advertisement {
-  border-radius: 30px;
-  max-width: 335px;
-  max-height: 363px;
-  background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),  url(/img/advertisement/advertisement-bgc-mob.jpg);
+.adertisement {
+    margin: 60px 0;
+}
+
+.adertisement-container {
+    border-radius: 30px;
+    width: 335px;
+    margin: 0 auto;
+    height: 363px;
+    background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+            url(/img/advertisement/advertisement-bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding: 60px 28px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin: 30px auto;
-   max-width: 279px;
 }
 
-.advertisement-text {
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  color: #fbfbfb;
-  max-width: 279px;
-  max-height: 167px;
-  text-align:left;
-  padding-bottom: 28px;
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+    .adertisement-container {
+        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+                url(/img/advertisement/advertisement-bg-mobile-2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
-.advertisement-text-color {
+.adertisement-text {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 28px;
+}
+
+.adertisement-text-color {
     color: rgba(251, 251, 251, 0.5);
 }
 
-.advertisement-btn {
-  display: block;
-  border: 1px solid rgba(251, 251, 251, 0.1);
-  background-color: transparent;
-  color: #fbfbfb;
-  border-radius: 16px;
-  font-family: "Gilroy", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 129%;
-  text-align: center;
-  width: 162px;
-  height: 48px;
-  padding: 15px 43px 15px 44px;
+.adertisement-btn {
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+    background-color: transparent;
 }
 
-.advertisement-btn:focus {
-  background-color:  #fbfbfb;
-  color: #0c0c0c;
+.adertisement-btn:hover {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
 }
 
-.advertisement-btn:hover {
-  background-color:  #fbfbfb;
-  color: #0c0c0c;
+.adertisement-btn:focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
+}
+
+@media screen and (min-width: 768px) {
+    .adertisement {
+        margin: 80px 0;
+    }
+
+    .adertisement-container {
+        width: 704px;
+        height: 425px;
+        padding: 80px 64px;
+        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+                url(/img/advertisement/advertisement-bg-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+        .adertisement-container {
+        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+                url(/img/advertisement/advertisement-bg-tablet-2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        }
+    }
+
+    .adertisement-text {
+        font-size: 48px;
+        line-height: 0.92;
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .adertisement {
+        margin: 100px 0;
+    }
+
+    .adertisement-container {
+        width: 1150px;
+        height: 298px;
+        padding: 83px 80px;
+        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+                url(/img/advertisement/advertisement-bg-desktop.jpg);
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+        .adertisement-container {
+        background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
+                url(/img/advertisement/advertisement-bg-desktop-2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        }
+    }
+
+    .adertisement-text {
+        max-width: 690px;
+        margin-bottom: 0;
+    }
+
+    .adertisement-btn {
+        position: absolute;
+        top: 80px;
+        right: 80px;
+    }
 }

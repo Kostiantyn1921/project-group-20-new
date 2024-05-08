@@ -9,6 +9,11 @@ p {
   margin: 0;
 }
 
+body {
+  font-family: "Gilroy", sans-serif;
+  margin: 0;
+}
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -48,7 +53,6 @@ img {
   .container {
     width: 375px;
     padding: 0 20px;
-    margin: 0 auto;
   }
 }
 

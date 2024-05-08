@@ -1,0 +1,166 @@
+.tablet-ctl {
+    display: none;
+}
+
+.desktop-ctl {
+    display: none;
+}
+
+.x6 {
+    display: none;
+}
+
+.catalog-container {
+    margin: 0 auto;
+    width: 335px;
+}
+
+.catalog-title {
+    font-family:  "Gilroy", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.catalog-item {
+    background-color:  #f3f3f3;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    padding: 24px 28px;
+    margin-bottom: 20px;
+    max-width: 335px;
+}
+
+.catalog-item-img {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 42px 64px 28px 63px;
+}
+
+.catalog-item-text {
+    display: block;
+}
+
+.catalog-item-title {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+}
+
+.catalog-item-price {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.5);
+}
+
+.catalog-button {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    background-color:  #3350e9;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: #fbfbfb;
+    padding: 15px 44px;
+    border: 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+
+}
+
+@media screen and (min-width: 375px) {
+
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .x6 {
+        display: block;
+    }
+
+    .mobile-ctl {
+        display: none;
+    }
+
+    .tablet-ctl {
+        display: block;
+    }
+
+    .desktop-ctl {
+        display: none;
+    }
+
+    .catalog {
+        margin-bottom: 80px;
+    }
+
+    .catalog-title {
+        font-size: 48px;
+        line-height: 92%;
+    }
+
+    .catalog-button {
+        display: none;
+    }
+
+    .catalog-item-title{
+        font-size: 20px;
+        line-height: 100%;
+        margin: 0 auto;
+    }
+
+    .catalog-blocks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .catalog-item {
+        max-width:  344px;
+        padding: 24px 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .mobile-ctl {
+        display: none;
+    }
+
+    .tablet-ctl {
+        display: none;
+    }
+
+    .desktop-ctl {
+        display: block;
+        min-width: 304px;
+    }
+
+    .catalog{
+        margin-bottom: 100px;
+    }
+
+    .catalog-item {
+        max-width: calc((100% - 46px) / 3);
+        padding: 24px 32px;
+        margin-bottom: 9px;
+    }
+
+    .catalog-blocks {
+        gap: 23px;
+    }
+
+}
