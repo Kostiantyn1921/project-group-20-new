@@ -34,6 +34,10 @@
   max-width: 335px;
 }
 
+.mr-0 {
+    margin-bottom: 0;
+}
+
 .catalog-item-img {
   display: flex;
   align-items: center;
@@ -123,6 +127,10 @@
     display: none;
   }
 
+  .catalog-item {
+    margin-bottom: 0;
+  }
+
   .catalog-item-title {
     font-size: 20px;
     line-height: 100%;
@@ -169,7 +177,7 @@
   .catalog-item {
     max-width: calc((100% - 46px) / 3);
     padding: 24px 32px;
-    margin-bottom: 9px;
+    margin-bottom: 0;
   }
 
   .catalog-blocks {
