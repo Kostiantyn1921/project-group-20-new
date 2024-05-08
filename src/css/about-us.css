@@ -12,7 +12,7 @@
  } 
 
 .aboutus-content {
-    width: 335px;
+    max-width: 335px;
     background-color: #f3f3f3;
     border-radius: 30px;
     margin: auto 0;
@@ -94,15 +94,14 @@
 
     .aboutus-content {
         max-width: 704px;
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding: 80px 60px;
+        
     }
 
     .aboutus-title {
         font-size: 48px;
         line-height: 0.91667;
         margin-bottom: 40px;
-        padding-left: 60px;
     }
 
     .aboutus-item {
@@ -116,7 +115,6 @@
 
     .aboutus-list {
         margin-bottom: 60px;
-        padding-left: 60px;
     }
 
     .aboutus-wrap {
@@ -124,7 +122,6 @@
     }
 
     .aboutus-image-btn{
-        margin-left: 60px;
     }
 } 
 
@@ -144,12 +141,10 @@
 
     .aboutus-content {
        width: 580px; 
-       padding-top: 89px;
     }
    
     .aboutus-list {
         margin-bottom: 31px;
-        padding-left: 60px;
     }
 
     .aboutus-item {

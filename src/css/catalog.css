@@ -110,6 +110,10 @@
     padding-bottom: 40px;
   }
 
+  .catalog-container {
+    max-width: 704px;
+  }
+
   .catalog-title {
     font-size: 48px;
     line-height: 92%;
@@ -154,6 +158,12 @@
   .catalog {
     padding-top: 50px;
     padding-bottom: 50px;;
+  }
+
+  .catalog-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1150px;
   }
 
   .catalog-item {
