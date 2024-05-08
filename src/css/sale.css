@@ -1,6 +1,6 @@
 .sale {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .sale-container {
@@ -126,18 +126,18 @@
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .sale-container {
-    width: 335px;
+    max-width: 335px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .sale {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .sale-container {
-    width: 704px;
+    max-width: 704px;
   }
 
   .sale-wrapper {
@@ -194,12 +194,12 @@
 
 @media screen and (min-width: 1280px) {
   .sale {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .sale-container {
     flex-wrap: nowrap;
-    width: 1150px;
+    max-width: 1150px;
   }
 
   .sale-big-img {

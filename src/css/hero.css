@@ -1,8 +1,8 @@
 .hero-container {
   margin: 0 auto;
   max-width: 335px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 .hero-first-wrapper {
@@ -79,8 +79,8 @@
 @media screen and (min-width: 768px) {
   .hero-container {
     max-width: 704px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 40px;
   }
 
   .hero-first-wrapper {
@@ -130,7 +130,7 @@
 @media screen and (min-width: 1280px) {
   .hero-container {
     max-width: 1150px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   .hero-text-wrapper {

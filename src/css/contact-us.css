@@ -1,3 +1,8 @@
+.contact-us {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .contact-us-container {
   margin: 0 auto;
 }
@@ -14,7 +19,7 @@
 .contact-input-img {
   display: flex;
   flex-wrap: wrap;
-  width: 335px;
+  max-width: 335px;
 }
 
 .contact-input {
@@ -102,14 +107,19 @@
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .contact-us-container {
-    width: 335px;
+    max-width: 335px;
   }
 }
 
 @media screen and (min-width: 768px) {
+    .contact-us {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
   .contact-input-img {
     flex-direction: column;
-    width: 704px;
+    max-width: 704px;
   }
 
   .contact-title {
@@ -161,6 +171,12 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+    .contact-us {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
   .contact-title {
     margin-bottom: 40px;
   }
@@ -168,7 +184,7 @@
   .contact-input-img {
     flex-direction: row;
     gap: 40px;
-    width: 1150px;
+    max-width: 1150px;
   }
 
   .contact-form {

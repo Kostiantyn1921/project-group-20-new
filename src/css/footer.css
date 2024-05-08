@@ -1,10 +1,14 @@
+.footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 .footer-container {
   max-width: 335px;
   padding: 40px 28px 28px 28px;
   border-radius: 30px;
   background-color: #0c0c0c;
-  margin-bottom: 20px;
-  margin-top: 60px;
+
   margin-right: auto;
     margin-left: auto;
 }
@@ -154,15 +158,19 @@
 }
 
 @media screen and (min-width: 768px) {
+
+    .footer {
+        padding-top: 40px;
+    padding-bottom: 32px;
+    }
+
   hr {
     margin-bottom: 28px;
   }
 
   .footer-container {
-    margin-bottom: 32px;
     max-width: 704px;
     padding: 40px 40px 28px 40px;
-    margin-top: 80px;
   }
 
   .footer-first-wrapper {
@@ -271,10 +279,14 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 18px;
+}
+
   .footer-container {
     max-width: 1216px;
-    margin-top: 100px;
-    margin-bottom: 32px;
     margin-left: -33px;
     margin-right: -33px;
   }

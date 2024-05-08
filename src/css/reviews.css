@@ -1,6 +1,6 @@
 .reviews {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     }
 
 .reviews-item {
@@ -85,8 +85,8 @@
 @media screen and (min-width: 768px) {
 
     .reviews {
-        margin-top: 80px;
-        margin-bottom: 80px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .reviews-container {
@@ -130,8 +130,8 @@
 @media screen and (min-width: 1280px) {
 
     .reviews {
-        margin-top: 100px;
-        margin-bottom: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .reviews-container {

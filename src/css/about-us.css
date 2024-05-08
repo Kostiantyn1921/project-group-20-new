@@ -1,6 +1,6 @@
 .aboutus {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .aboutus-container {
@@ -86,8 +86,8 @@
 
 @media screen and (min-width: 768px) {
     .aboutus {
-        margin-top: 80px;
-        margin-bottom: 80px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .aboutus-container {
@@ -95,7 +95,7 @@
     } 
 
     .aboutus-content {
-        width: 704px;
+        max-width: 704px;
         padding-top: 80px;
         padding-bottom: 80px;
     }
@@ -136,8 +136,8 @@
 @media screen and (min-width: 1280px) {
 
     .aboutus {
-        margin-top: 100px;
-        margin-bottom: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
      .aboutus-container {
